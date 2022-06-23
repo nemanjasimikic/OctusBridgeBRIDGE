@@ -51,7 +51,7 @@ namespace OctusBridgeBRIDGE.Controllers
         /// </summary>
         /// <param name="user_address">user_address</param>
         /// <returns></returns>
-        [HttpPost]
+        [HttpGet]
         [Route("user/{user_address}")]
         public async Task<IActionResult> StakeholderData([Required] string user_address)
         {
